@@ -1,0 +1,27 @@
+.Pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.PaginationItem{
+    width: 30px;
+    height: 30px;
+    border: 2px solid darkgrey;
+    margin: 0 3px;
+}
+
+.PaginationItemActive{
+    width: 30px;
+    height: 30px;
+    border: 2px solid darkgrey;
+    margin: 0 3px;
+    background: darkgrey;
+    color: white;
+}
+
+.PaginationItem:hover{
+    background: darkgrey;
+    cursor: pointer;
+    color: white;
+}
